@@ -787,7 +787,7 @@ $(document).ready(function() {
 		if(navigator.getUserMedia){
 			if (!!window.stream) {
 				$("video").attr('src',null);
-				window.stream.stop();
+				window.stream.getTracks().forEach(function (track) { track.stop(); });
   			}
 
 			var videoSource = $("select#videoSource").val();
