@@ -36,13 +36,6 @@ In order to send money you must create a transaction (which requires internet ac
 8. Scan in your signed transaction to Loki and broadcast to bitcoin network
 
 ### But wait!
-Savvy security folks might have noticed that since it's kind of hard for a human to read a QR code, Frosty could be sending your private key hidden in the signed transaction code and Loki could pick it up.  Good on you.  That vulnerability only works if both Loki and Frosty are colluding :)  Which is why I encourage you to check out the source and launch your own version of Loki (either locally on your own laptop or using the heroku button below).
-
-
-A Open Source Browser Based Bitcoin Wallet. Version 1.3 beta by OutCast3k
-
-Live version available at http://coinb.in/ or http://4zpinp6gdkjfplhk.onion
-
-Github URL: https://github.com/OutCast3k/coinbin/
+Savvy security folks might have noticed that since it's kind of hard for a human to read a QR code, Frosty could be sending your private key hidden in the signed transaction code and Loki could pick it up.  Good on you.  That vulnerability only works if both Loki and Frosty are colluding :)  Which is why I encourage you to check out the source and launch your own version of Loki (either locally on your own laptop or using the heroku button below).s
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
